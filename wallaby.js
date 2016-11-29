@@ -4,10 +4,11 @@ var webpackPostprocessor = wallabyWebpack({});
 module.exports = function () {
   return {
     files: [
-      { pattern: 'src/**/*.ts', load: false }
+      { pattern: 'src/**/*.ts', load: false },
+      { pattern: 'src/**/*.spec.ts', ignore: true }
     ],
     tests: [
-      { pattern: 'test/**/*.spec.ts', load: false }
+      { pattern: 'src/**/*.spec.ts', load: false }
     ],
     postprocessor: webpackPostprocessor,
     setup: function () {
