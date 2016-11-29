@@ -1,5 +1,5 @@
 {
-  "name": "wallaby-webpack-sample",
+  "name": "wallabyjs-ts-minimal",
   "version": "0.0.0",
   "devDependencies": {
     "@types/jasmine": "^2.5.38",
